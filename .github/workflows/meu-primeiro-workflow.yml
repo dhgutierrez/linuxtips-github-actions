@@ -1,9 +1,7 @@
 name: Primeiro Workflow Linuxtips
 
 on: 
-  push:
-    branches:
-      - main
+  Workflow_dispatch
 
 jobs:
   girpops:
@@ -13,5 +11,5 @@ jobs:
         run: cat /etc/os-release
 
       - name: Exibir uma mensagem
-        run: echo "Estoufazendo o curso de Github Actions da Linuxtips"
+        run: echo "Estou fazendo o curso de Github Actions da Linuxtips"
 
