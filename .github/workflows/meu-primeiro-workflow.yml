@@ -9,9 +9,9 @@ jobs:
   girpops:
     runs-on: ubuntu-latest
     steps:
-      -name: Confere versao do ubuntu
-       run: cat /etc/os-release
+      - name: Confere versao do ubuntu
+        run: cat /etc/os-release
 
-      -name: Exibir uma mensagem
-       run: echo "Estoufazendo o curso de Github Actions da Linuxtips"
+      - name: Exibir uma mensagem
+        run: echo "Estoufazendo o curso de Github Actions da Linuxtips"
 
