@@ -39,6 +39,9 @@ jobs:
       - name: Acessa arquivo mensagem
         run: mv strigus/mensagem.txt . && rm -rf ./trigus
 
+      - name: Ver o conteudo do diretorio
+        run: ls -lha 
+
       - name: Acessa arquivo mensagem
         run: cat mensagem.txt
 
