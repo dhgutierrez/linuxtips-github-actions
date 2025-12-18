@@ -10,4 +10,4 @@ jobs:
     steps:
 
       - name: Avisa sobre a modificação
-        run: echo "Este workflow foi triggado pois uma regra de Branch Protection Rule foi alterada "
+        run: echo "Este workflow foi triggado pois uma regra de Branch Protection Rule foi alterada"
