@@ -2,4 +2,5 @@
 
 ## Estou editando este arquivo com o VSCODE
 
-#Qualquer coisa 2
+
+# Novo conteudo da branch Staging
