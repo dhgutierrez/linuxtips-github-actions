@@ -2,7 +2,7 @@ name: Testando a o trigger do tipo Schedule
 
 on:
   schedule:
-    - cron: '53 13 25 12 *'  # Executa diariamente à meia-noite
+    - cron: '55 16 25 12 *'  # Executa diariamente à meia-noite
 
 jobs:
   executa-Schedule:
