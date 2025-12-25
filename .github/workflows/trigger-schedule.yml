@@ -1,0 +1,13 @@
+name: Testando a o trigger do tipo Schedule
+
+on:
+  schedule:
+    - cron: '53 13 25 12 *'  # Executa diariamente à meia-noite
+
+jobs:
+  executa-Schedule:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Informa Horário
+        run: echo "Schedule executado com sucesso, agora são $(date) UTC"
