@@ -2,10 +2,9 @@ name: Workflow Run
 
 on:
   workflow_run:
-    inputs:
-      workflows: [Chama Workflow Compartilhado]
-      types:
-        - completed
+    workflows: [Chama Workflow Compartilhado]
+    types:
+      - completed
 
 jobs:
   fala-o-nome-do-curso:
