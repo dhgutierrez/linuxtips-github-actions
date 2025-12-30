@@ -1,0 +1,15 @@
+name: Workflow Run
+
+on:
+  workflow_run:
+    inputs:
+      workflows: [Chama Workflow Compartilhado]
+      types:
+        - completed
+
+jobs:
+  fala-o-nome-do-curso:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Informa o nome do curso
+        run: echo "O Workflow Compartilhado 'Chama Workflow Compartilhado' terminou de ser executado."
