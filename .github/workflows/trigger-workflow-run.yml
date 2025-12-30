@@ -7,7 +7,7 @@ on:
       - completed
 
 jobs:
-  fala-o-nome-do-curso:
+  avisa-sobre-o-termino-workkflow:
     runs-on: ubuntu-latest
     steps:
       - name: Informa o nome do curso
